@@ -1,0 +1,35 @@
+USE BENSON;
+
+SHOW TABLES;
+
+#第1題
+SELECT * 
+FROM dept;
+
+#第2題
+SELECT * 
+FROM emp;
+
+SELECT EMPNO, ENAME, JOB, HIREDATE 
+FROM emp;
+
+#第3題
+SELECT * 
+FROM emp;
+
+SELECT DISTINCT JOB 
+FROM emp;
+
+#第4題
+SELECT * 
+FROM EMP;
+
+SELECT EMPNO as "EMP#", ENAME as EMPLOYEE, JOB, HIREDATE as "Hire DATE" 
+FROM emp;
+
+#第5題
+SELECT * 
+FROM EMP;
+
+SELECT concat(ENAME, " ,", JOB) as "Employee and Title" 
+FROM EMP;
